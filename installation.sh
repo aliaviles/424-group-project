@@ -4,7 +4,7 @@
 sudo apt update
 
 # Install Apache
-sudo apt install apache2 -y
+sudo apt-get install apache2 -yq
 
 # Install MySQL
 sudo apt install mysql-server -y
@@ -19,7 +19,7 @@ sudo apt install openssh-server -y
 sudo apt install iptables-persistent -y
 
 # Install Snort Intrusion Detection System
-sudo apt install snort -y
+sudo apt-get install snort -y
 
 # Start services
 sudo systemctl start apache2
