@@ -4,7 +4,7 @@
 sudo apt update
 
 # Install Apache
-sudo apt-get install apache2 -yq
+sudo apt-get install apache2 -y
 
 # Install MySQL
 sudo apt install mysql-server -y
