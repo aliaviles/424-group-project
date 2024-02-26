@@ -16,7 +16,7 @@ sudo apt install php libapache2-mod-php php-mysql -y
 sudo apt install openssh-server -y
 
 # Install IPTables Firewall
-sudo apt install iptables-persistent
+sudo apt install iptables-persistent -y
 
 # Install Snort Intrusion Detection System
 sudo apt install snort -y
